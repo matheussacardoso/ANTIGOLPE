@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    border: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.campo input{
+    font-size: 1.0em;
+    font-style: italic;
+    height: 30px;
+    width: 180px;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    width: 140px;
+    height: auto;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+}
+
+.search{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #eb5e0d;
+    border: 0;
+    margin-bottom: 2em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0 , 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0 , 0.5);
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+footer{
+    color: #f20a0a;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+background-image: url(../imagens_desafio/design_desafio2.png);
+background-repeat: no-repeat;
+background-size: 100%;
+margin: auto;
+}
