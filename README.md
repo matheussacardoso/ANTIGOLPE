@@ -1,18 +1,24 @@
 # ANTIGOLPE
-What's? 
+# What's? 
+It's a full-stack project that my website analyse malicious links with the API of VirusTotal.
 
-It's a full-stack project that my website analyse malicious links with the API of VirusTotal. 
+Front-End: Html and Css
 
-What is my purpose to do this project?
+Back-End: Python
 
-So i'm interesting in study and develop this website to learn about:
+Design: Photoshop
+
+# What is my purpose to do this project?
+- Firstly, I want to apply my knowledge in a real project that can be used for anyone
+
+- Finally, I'm interesting in study and develop this website to learn about:
 1. API
 2. Python and Flask
 3. Html and CSS
 4. Web Hosting
 5. Photoshop
 
-Documentation of the API VirusTotal
+# Documentation of the API VirusTotal
 
 https://developers.virustotal.com/reference#url-report
 
