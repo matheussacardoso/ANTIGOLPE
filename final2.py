@@ -7,7 +7,7 @@ links = {
 }
 
 #para ter acesso a API e cria-se uma variável para fazer os requests
-api_key = 'c328766e633794711fffdd6eb36bc0d20f6d3ee0b04a9e097ff7798dfe098e45'
+api_key = '?'
 
 #de onde vc vai puxar a funcionalidade para fazer a análise dos links
 url = 'https://www.virustotal.com/vtapi/v2/url/report'
@@ -24,15 +24,15 @@ for site in links:
     response_json = json.loads (response.content) 
 
     if response_json['positives'] <= 0:
-        with open ('index2.html','a') as vt:
+        with open ('index2.json','a') as vt:
             vt.write(site) and vt.write('\tNão é malicioso\n')
 
     elif response_json['positives'] >= 3:
-        with open ('index2.html','a') as vt:
+        with open ('index2.json','a') as vt:
             vt.write(site) and vt.write('\t Talvez seja malicioso\n')
 
     elif response_json['positives'] >= 4:
-        with open ('index2.html','a') as vt:
+        with open ('index2.json','a') as vt:
             vt.write(site) and vt.write('\tÉ malicioso\n')
 
     else:
