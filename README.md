@@ -1,9 +1,10 @@
 # ANTIGOLPE
-# What's? 
-It's a full-stack project that my website analyse malicious links with the API of VirusTotal.
+# Informations about the project
+It's a full-stack develpoment project that consumes VirusTotal API to analyse malicious links sending by hackers.
 
 Link: https://matheussacardoso.github.io/ANTIGOLPE/
 
+# Stack
 Front-End: Html and Css
 
 Back-End: Python
